@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+*.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Jupyter Notebook checkpoints (if added later)
+.ipynb_checkpoints/
+
+# PDF outputs (optional, if generated)
+*.pdf
+
+# Logs and misc
+*.log
+*.sqlite3
+*.db
+
+# PyInstaller
+*.spec
+
+# Pycharm
+.idea/
+
+# Frontend specific (Streamlit artifacts)
+frontend/__pycache__/
+frontend/.streamlit/
+
+# Backend data (if you don't want to commit the book)
+backend/data/medical_book.pdf
